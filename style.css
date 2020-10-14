@@ -1,0 +1,547 @@
+/* 
+
+Global Styles
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container  {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.download-container {
+      width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-container  {
+        width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    color: white;
+}
+
+.main-button {
+    color: white;
+    background: #FB7764;
+    padding: 18px 20px;
+}
+
+
+.fat-button {
+    color: white;
+    background: #FB7764;
+    padding: 25px 5px;
+}
+
+.gray-text {
+    color: #B3B3B3;
+}
+
+.lg-logo {
+    max-width: 500px;
+}
+
+.main-hd-logo {
+    max-width: 300px;
+    padding: 30px 0px;
+    
+}
+
+/* 
+
+Header
+
+*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 
+
+Top Hero
+
+*/
+
+#top-hero {
+    background: linear-gradient(rgba(20,20,20, .4), rgba(20,20,20, .4)),
+   url(./img/lashes-top-hero.jpg) no-repeat center center/cover;
+  height: 70vh;
+  width: 100%;
+}
+
+#top-hero .hero-text{
+    display: inline-block;
+ background: rgba(204, 204, 204, 0.8);
+  position: relative;
+  top: 150px;
+  left: 150px;
+  height: 300px;
+  width: 500px;
+  
+}
+#top-hero .hero-text h2{
+text-align: center;
+padding: 15px;
+}
+
+#top-hero .hero-text p{
+text-align: center;
+padding: 15px;
+line-height: 1.7;
+}
+
+#top-hero .hero-text span{
+color: #FB7764;
+font-weight: bold;
+}
+
+#top-hero .hero-text .btn-container{
+text-align: center;
+padding-top: 25px;
+
+}
+
+/* 
+
+Reviews
+
+*/
+
+#reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   grid-auto-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 15px;
+    height: 100%;
+    line-height: 1.4;
+}
+
+#reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    grid-gap: 15px;
+}
+
+#reviews p span {
+visibility: hidden;
+}
+
+#mobile-reviews {
+    display: none;
+}
+
+/* 
+
+Features
+
+*/
+
+#features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding-top: 55px;
+    text-align: center;
+  
+}
+
+#features h3 {
+   padding-top: 10px;
+}
+
+/* 
+
+Home eyelash extentions
+
+*/
+
+#home-eyelash-extensions {
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+#home-eyelash-extensions h3 {
+   padding-bottom: 10px;
+}
+
+#home-eyelash-extensions p {
+   padding-bottom: 10px;
+}
+#home-eyelash-extensions .btn-container {
+   margin-top: 30px;
+}
+
+/* 
+
+How it Works
+
+*/
+
+#how-it-works {
+        display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     padding-top: 20px;
+     background: #F9F7F8;
+}
+
+#how-it-works p{
+     padding-top: 10px;
+     padding-bottom: 20px;
+}
+
+/* 
+
+How it Works
+
+*/
+
+#our-services {
+            display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     padding-top: 20px;
+}
+#our-services .btn-container {
+ margin-top: 20px;
+}
+#our-services .fat-button {
+ margin-top: 35px;
+ margin-left: 10px;
+ margin-right: 10px;
+   color: white;
+    background: #FB7764;
+    padding: 7px;
+    font-size: 14px;
+    display:block;
+    font-weight: bold;
+    
+}
+#our-services .fat-button span {
+visibility: hidden;
+    
+}
+
+/* 
+
+Download The App
+
+*/
+
+#download {
+  
+     background: #F9F7F8;
+     margin-top: 50px;
+}
+
+
+#download img {
+  
+  padding-top: 30px;
+}
+
+#download div {
+    padding-top: 30px;
+}
+
+
+/* 
+
+Footer
+
+*/
+
+footer {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    color: white;
+}
+
+footer li {
+    padding: 10px;
+}
+
+footer ul li a {
+    color: white;
+}
+
+footer i {
+    color: white;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 1160px) {
+
+    * {
+        width: 100%;
+    }
+
+       header {
+   display: block;
+   text-align: center;
+}
+
+#reviews {
+display: none;
+}
+
+#mobile-reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    padding: 30px 0px;
+}
+
+    header {
+   display: block;
+   text-align: center;
+}
+
+#top-hero {
+    margin-top: 50px;
+}
+
+#top-hero .hero-text{
+display: none;
+  
+}
+
+
+.btn-container {
+    display: none;
+}
+
+.fat-button {
+    display: none;
+}
+
+#features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    padding: 30px 0px;
+}
+
+#home-eyelash-extensions {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#how-it-works {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#our-services {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#download {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#download .download-container {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    * {
+   
+        width: 100%;
+    }
+
+    header {
+   display: block;
+   text-align: center;
+}
+
+.main-hd-logo {
+    max-width: 300px;
+    padding-bottom: 40px;
+}
+
+#top-hero {
+    margin-top: 50px;
+}
+
+#top-hero .hero-text{
+display: none;
+  
+}
+
+
+.btn-container {
+    display: none;
+}
+
+.fat-button {
+    display: none;
+}
+
+#features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    padding: 30px 0px;
+}
+
+#home-eyelash-extensions {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#how-it-works {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#our-services {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#download {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#download .download-container {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+
